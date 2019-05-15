@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle ice-tools-atom",
+        "command": "ice-tools-atom:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "ice-tools-atom",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "ice-tools-atom:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

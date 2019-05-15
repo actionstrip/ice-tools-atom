@@ -1,0 +1,36 @@
+{
+  "name": "ice-tools-atom",
+  "main": "./lib/ice-tools-atom",
+  "version": "0.0.0",
+  "description": "ice-tools-atom",
+  "keywords": [
+    "linter",
+    "ice-tools"
+  ],
+  "repository": "https://github.com/atom/ice-tools-atom",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.4.0 <2.0.0"
+  },
+  "providedServices": {
+    "linter": {
+      "versions": {
+        "2.0.0": "provideLinter"
+      }
+    }
+  },
+  "dependencies": {
+    "atom-linter": "^5.0.1",
+    "atom-package-deps": "^3.0.6",
+    "partial-js": "^1.1.8"
+  },
+  "package-deps": [
+    "intentions",
+    "busy-signal",
+    "linter-ui-default",
+    "linter"
+  ],
+  "devDependencies": {
+    "cheerio": "^1.0.0-rc.3"
+  }
+}
