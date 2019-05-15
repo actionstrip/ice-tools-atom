@@ -7,7 +7,7 @@
     "linter",
     "ice-tools"
   ],
-  "repository": "https://github.com/atom/ice-tools-atom",
+  "repository": "https://github.com/actionstrip/ice-tools-atom",
   "license": "MIT",
   "engines": {
     "atom": ">=1.4.0 <2.0.0"
