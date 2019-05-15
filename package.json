@@ -22,7 +22,8 @@
   "dependencies": {
     "atom-linter": "^5.0.1",
     "atom-package-deps": "^3.0.6",
-    "partial-js": "^1.1.8"
+    "partial-js": "^1.1.8",
+    "cheerio": "^1.0.0-rc.3"
   },
   "package-deps": [
     "intentions",
@@ -31,6 +32,5 @@
     "linter"
   ],
   "devDependencies": {
-    "cheerio": "^1.0.0-rc.3"
   }
 }
